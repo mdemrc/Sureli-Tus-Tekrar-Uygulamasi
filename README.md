@@ -4,7 +4,7 @@
 
 ## English
 
-Teaching aid for **keyboard automation ethics**: prompts for **interval \(\seconds\)** and **capture of a keystroke**, then repeatedly synthesises presses using **`user32.dll` `keybd_event` P/Invoke**. Includes cooperative cancellation \(\`dur command\`). Stress that hooking keystrokes improperly may violate workstation policies \(disclose responsibly in portfolio narrative\).
+Teaching aid for **keyboard automation ethics**: prompts for an interval in **seconds** and **captures one keystroke**, then repeatedly synthesises presses using **`user32.dll`** **`keybd_event` P/Invoke**. Cooperative cancellation listens for **`dur`** on the console input stream. Automated key injection can violate workstation or exam regulations—document ethical context in any portfolio narrative.
 
 Build with `dotnet run` or VS solution hosting `Program.cs`; no SQL dependencies.
 
